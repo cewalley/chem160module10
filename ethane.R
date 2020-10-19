@@ -10,5 +10,4 @@
 > # c4 V^3 + c3 V^2 + c2 V + c1 =0
 > roots = polyroot(c(c1,c2,c3,c4))
 > cat("VdW Volumes: ",roots,"\n") 
-VdW Volumes:  0.09600542-0i 0.0461128+0.1286991i 0.0461128-0.1286991i 
-> 
+> source("ethane.R") 
